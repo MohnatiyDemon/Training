@@ -92,7 +92,7 @@
             <form class="popup__form" onsubmit="addHabbit(event)"">
                 <input type="text" name="name" placeholder="Название">
                 <input type="text" name="icon" hidden placeholder="Иконка" value="sport">
-                <input type="number" name="target" placeholder="Цель (количество дней)">
+                <input type="number" min="1" name="target" placeholder="Цель (количество дней)">
                 <button class="button__form" type="submit">Добавить</button>
             </form>
                 <button class="popup__close" onclick="togglePopup()">
